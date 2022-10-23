@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fine-tuning-rinnna-to-infer-title"
+version = "0.1.0"
+description = ""
+authors = ["Usuyuki"]
+readme = "README.md"
+packages = [{include = "fine_tuning_rinnna_to_infer_title"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = {git = "https://github.com/huggingface/transformers"}
+sentencepiece = "^0.1.97"
+datasets = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
