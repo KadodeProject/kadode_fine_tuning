@@ -9,15 +9,11 @@ packages = [{include = "src"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 transformers = {git = "https://github.com/huggingface/transformers"}
-torch = [
-    {url="https://download.pytorch.org/whl/cu116/torch-1.12.1%2Bcu116-cp310-cp310-linux_x86_64.whl",markers = "sys_platform == 'linux'"},
-    {version="^1.12.1",markers = "sys_platform == 'darwin'"}]
-torchvision = [
-    {url="https://download.pytorch.org/whl/cu116/torchvision-0.13.1%2Bcu116-cp310-cp310-linux_x86_64.whl",markers = "sys_platform == 'linux'"},
-    {version="^0.13.1",markers = "sys_platform == 'darwin'"}]
-torchaudio = [
-    {url="https://download.pytorch.org/whl/cu116/torchaudio-0.12.1%2Bcu116-cp310-cp310-linux_x86_64.whl",markers = "sys_platform == 'linux'"},
-    {version="^0.12.1",markers = "sys_platform == 'darwin'"}]
+torch = "^1.12.1"
+torchvision = "^0.13.1"
+torchaudio = "^0.12.1"
+sentencepiece = "^0.1.97"
+datasets = "^2.6.1"
 
 [build-system]
 requires = ["poetry-core"]
