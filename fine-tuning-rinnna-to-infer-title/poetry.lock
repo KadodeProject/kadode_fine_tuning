@@ -609,7 +609,7 @@ vision = ["Pillow"]
 type = "git"
 url = "https://github.com/huggingface/transformers"
 reference = "HEAD"
-resolved_reference = "072ed01c388ee04a452619c57ed40bb97f5e9953"
+resolved_reference = "371337a95b5d82cc9376c2595ed2022a5eb2ee6e"
 
 [[package]]
 name = "typing-extensions"
