@@ -51,9 +51,7 @@ python ファイル名
 
 # clone してるもの
 
-https://github.com/huggingface/transformers
-
-→transformers/examples/pytorch/language-modeling/run_clm.py
+https://github.com/huggingface/transformers/examples/pytorch/language-modeling/run_clm.py
 
 https://github.com/rinnakk/japanese-pretrained-models
 

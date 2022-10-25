@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# https://github.com/huggingface/transformers/examples/pytorch/language-modeling/run_clm.pyを用いる
 # coding=utf-8
 # Copyright 2020 The HuggingFace Inc. team. All rights reserved.
 #
