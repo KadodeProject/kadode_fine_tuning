@@ -1,10 +1,8 @@
 # kadode_fine_tuning
 
-かどで日記に最適化されたモデルを作るための検証リポジトリ。
+かどで日記に最適化されたモデルを作るための検証リポジトリ.
 
-fine tuningを検証した結果、usuyuki個人の日記のみではかどで日記本体に組み込める機能を実現できないという結論に至った。
-
-※結果として Google Colab を利用したため、このリポジトリは GPT 用のテキストファイル生成の役割のみ
+GPT2によりpre trainingにrinna/japanese-gpt2-medium, fine tuningにusuyukiの日記を用いて独自モデルを作成して検証した結果, usuyuki個人の日記のみでは**独自モデルによるかどで日記の機能価値向上は難しい**という結論に至った。
 
 # 学習結果
 
@@ -15,3 +13,6 @@ fine tuningを検証した結果、usuyuki個人の日記のみではかどで�
 [環境選定結果](00_envrionmentResult.md)
 
 [ローカル環境で頑張ったときのメモ](02_localMemo.md)
+
+※結果として Google Colab を利用したため, このリポジトリは GPT 用のテキストファイル生成の役割のみ
+
